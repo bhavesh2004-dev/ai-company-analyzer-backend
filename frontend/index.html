@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Company Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Company Analyzer</h1>
+
+    <div class="input-box">
+        <input 
+            type="text" 
+            id="urlInput" 
+            placeholder="Enter company website URL"
+        />
+        <button onclick="analyzeCompany()">Analyze</button>
+    </div>
+
+    <div id="loading" class="hidden">
+        🔍 Analyzing website, please wait...
+    </div>
+
+    <!-- COMPANY CARD -->
+    <div id="companyCard" class="card hidden"></div>
+
+    <!-- PROPOSAL CARD -->
+    <div id="proposalCard" class="card hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

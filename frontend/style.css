@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    margin: 15px 0;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Card layout */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+/* Email style */
+.email-box {
+    background: #fafafa;
+    border-left: 4px solid #4caf50;
+    padding: 15px;
+    white-space: pre-line; /* ⭐ IMPORTANT */
+}
